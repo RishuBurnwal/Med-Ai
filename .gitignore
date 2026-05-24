@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Databases and local state
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+hospital_ai.db
+hospital_ai.db-shm
+hospital_ai.db-wal
+backend/hospital_ai.db
+backend/hospital_ai.db-shm
+backend/hospital_ai.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/patient-portal/node_modules/
+frontend/dist/
+frontend/patient-portal/dist/
+
+# Test artifacts
+frontend/playwright-report/
+frontend/test-results/
+frontend/.playwright/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local misc
+nul
